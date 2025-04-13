@@ -1,53 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajeev Halemani</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            color: #0366d6; /* GitHub color */
-        }
-
-        .repo {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            color: #586069; /* GitHub secondary text color */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajeev Halemani - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #0366d6;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .contact-info, .experience, .education, .skills, .certs {
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #e3f2fd;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Complete professional details</h1>
-        <!-- Add any additional information you want here, e.g., bio, skills, etc. -->
-    </header>
+  <header>
+    <h1>Rajeev Halemani</h1>
+    <p><strong>Address:</strong> Lindenstr. 11/3, 71229, Leonberg, Germany</p>
+    <p><strong>Phone:</strong> +49-155-108-18388 | <strong>Email:</strong> <a href="mailto:rajeev.halemani@gmail.com">rajeev.halemani@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rajeevah208/">rajeevah208</a></p>
+    <p><strong>Resident Status:</strong> Blue card holder (valid till 08.2027) | <strong>License:</strong> German B197</p>
+  </header>
 
-    <!-- Example repository list. You can customize this part. -->
-    <section>
-        <h2>Repositories</h2>
-        <ul>
-            <li class="repo"><a href="https://github.com/yourusername/repo1">Repo 1</a></li>
-            <li class="repo"><a href="https://github.com/yourusername/repo2">Repo 2</a></li>
-            <!-- Add more repositories as needed -->
-        </ul>
-    </section>
+  <section class="summary">
+    <h2>Professional Summary</h2>
+    <p>Embedded software & firmware engineer with 13+ years of hands-on experience in development & testing of bare-metal, RTOS and Linux based embedded software for Semiconductor, Automotive, IoT & consumer electronics products.</p>
+  </section>
 
-    <footer>
-        <p>Find me on GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
-    </footer>
+  <section class="skills">
+    <h2>Skills Summary</h2>
+    <table>
+      <tr><th>Category</th><th>Details</th></tr>
+      <tr><td>Languages</td><td>C/C++, Assembly (ARM), Python, UML</td></tr>
+      <tr><td>Development Tools</td><td>GCC, Keil, IAR, Make, CMake, JTAG/GDB, core dump analysis</td></tr>
+      <tr><td>RTOS/OS</td><td>FreeRTOS, ThreadX, Zephyr, Embedded Linux, u-boot, Yocto</td></tr>
+      <tr><td>Protocols</td><td>UART, I2C/SMBus, SPI, CAN, USB, MQTT, CoAP, WiFi, BLE</td></tr>
+      <tr><td>MCUs/SBCs</td><td>RH850, Cortex M (nRF, STM32, NXP, TI), Cortex A (Raspberry Pi, Beaglebone)</td></tr>
+      <tr><td>SCM/Agile Tools</td><td>ClearCase, ClearQuest, JIRA, Git, DOORS-like tools</td></tr>
+      <tr><td>Automotive</td><td>CANoe, DaVinci Configurator, PEAK-CAN, Vehicle SPY</td></tr>
+      <tr><td>Standards</td><td>MISRA-C, UDS ISO-14229, ISO-15765, AUTOSAR 4.0.3, ISO-26262</td></tr>
+      <tr><td>Hardware Interaction</td><td>Linux drivers, schematics, oscilloscope, DMM, sensor interface</td></tr>
+    </table>
+  </section>
+
+  <section class="certs">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Arm Cortex-M Architecture and Software Development</li>
+      <li>nRF Connect SDK Fundamentals</li>
+      <li>nRF Connect SDK Intermediate</li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <h3>CARIAD SE (Volkswagen Group) | Apr 2023 - Present</h3>
+    <p>Senior Software Engineer - Low Level Software</p>
+
+    <h3>Intel Technology India | Dec 2017 - Feb 2023</h3>
+    <p>Firmware Engineer - FPGA Security IP & System Validation Engineer</p>
+    <ul>
+      <li>Developed firmware for security subsystems for Intel FPGA</li>
+      <li>Delivered FIPS 140-3 Zeroization, CAVP, AES validation</li>
+      <li>Led 6-member validation team for OPTEE, ARM TrustZone</li>
+      <li>Boot ROM and safety middleware validation</li>
+      <li>Contributed automated test suites, published 2 internal papers</li>
+    </ul>
+
+    <h3>Aptiv (Delphi Automotive) | Mar 2017 - Dec 2017</h3>
+    <ul>
+      <li>Developed UDP-based logging for Radar systems</li>
+      <li>Proposed Python-based validation frameworks</li>
+    </ul>
+
+    <h3>Harman International | Sep 2015 - Feb 2017</h3>
+    <ul>
+      <li>AUTOSAR CDD development for automotive modules on RH850</li>
+      <li>Diagnostics module development with UDS</li>
+      <li>Python-based testing framework for CAN diagnostics</li>
+    </ul>
+
+    <h3>Intel India (Internship) | Feb 2015 - Aug 2015</h3>
+    <ul>
+      <li>Connected vehicle prototype development (OBD, LUA)</li>
+    </ul>
+
+    <h3>IoTBLR Community | Jan 2014 - Feb 2015</h3>
+    <ul>
+      <li>PoC development and training for IoT</li>
+      <li>Mentored in Intel’s Roadshow and Hackathon</li>
+    </ul>
+
+    <h3>Robert Bosch | Nov 2010 - Sep 2013</h3>
+    <ul>
+      <li>EGR system & multimedia PDC software development</li>
+      <li>PERL script for automated module code generation</li>
+    </ul>
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    <h3>M.Tech - Embedded Systems & VLSI | Sep 2013 - Aug 2015</h3>
+    <p>DSCE, Bangalore (VTU), Thesis: Building Automation & IoT over CAN</p>
+
+    <h3>B.E - Electronics & Communication | Jun 2006 - Jun 2010</h3>
+    <p>SDMCET, Dharwad (VTU), Thesis: NIYANTRAN - Assistive PC control for disabled</p>
+  </section>
+
+  <footer>
+    <p>&copy; Rajeev Halemani | <a href="https://github.com/yourusername">GitHub</a></p>
+  </footer>
 </body>
 </html>
